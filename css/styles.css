@@ -1,2 +1,94 @@
 /* CSS Document */
+@font-face { font-family: 'Pacifico';
+    src: url('./assets/fonts/Pacifico-Regular.woff2') format('woff2'), 
+    url('./assets/fonts/Pacifico-Regular.woff') format('woff'); 
+    font-weight: 400; 
+    font-style: normal;
+}
 
+@font-face { 
+    font-family: 'Caveat';
+    src: url('./assets/fonts/Caveat-VariableFont_wght.ttf') format('truetype'); 
+    font-weight: 400 700;
+    font-style: normal; 
+}
+
+@font-face { 
+    font-family: 'MarckScript';
+    src: url('./assets/fonts/MarckScript-Regular.ttf') format('truetype'); 
+    font-weight: 400;
+    font-style: normal; 
+}
+
+:root {
+
+    --decor-color: #ffef0a;
+    --sub-decor-color: #ff9cd6;
+    --decor-text-color: #f32055;
+    --text-color: #ffffff;
+    --base-box-color: #1879b9;
+    --btn-color: #0d3f61;
+}    
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Gnocchi', sans-serif;
+    font-size: 1.2rem;
+    color: var(--text-color);
+    font-family: 'MarckScript'; 
+    
+}
+
+body{
+    background: url("../assets/images/backgrounds/indexBG.jpg");
+    background-size:auto; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.baseBox{
+    background-color: color-mix(in srgb, var(--base-box-color) 50%, transparent);
+    backdrop-filter: blur(20px);
+    width: 80vw;
+    margin: 0 auto;
+    padding: 2vh 3vw;
+    border-radius: 3vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.text { 
+    display: inline-block; 
+    color: var(--text-color);
+}
+
+.decor {
+    color: var(--decor-color);
+    font-size: 2rem;
+}
+
+.text-decor { 
+    color: var(--decor-text-color);
+    font-family: 'Pacifico', cursive;
+    transform: skewX(-10deg);
+    letter-spacing: -0.08em;
+}
+
+.sub-decor {
+    color: var(--sub-decor-color);
+}
+
+button{
+    background-color: var(--btn-color);
+    color:var(--text-color);
+    padding: 1vh 4vw;
+    border:none;
+    border-radius: 2vh;
+}
