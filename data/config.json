@@ -1,0 +1,12 @@
+{
+  "game_settings": {
+    "title": "Волейбольная история",
+    "start_node": 0,
+    "text_speed": 35
+  },
+  "assets": {
+    "bg_path": "assets/images/backgrounds/",
+    "char_path": "assets/images/characters/",
+    "avatar_path": "assets/images/avatars/"
+  }
+}

@@ -1,0 +1,514 @@
+[
+  {
+    "id": 0,
+    "background": "gym.png",
+    "character": {
+      "name": " ",
+      "avatar": "Voice_mini.png"
+    },
+    "text": "<i>Спортзал залит вечерним солнцем. Я отрабатываю подачи в одиночестве. Мяч глухо ударяется об пол, эхо разносится по пустым трибунам.</i>",
+    "next": 1
+  },
+  {
+    "id": 1,
+    "background": "gym.png",
+    "character": {
+      "name": "Алёна",
+      "image": "Alena_base.png",
+      "avatar": "Alena_mini.png",
+      "position": "left"
+    },
+    "text": "Не ожидала увидеть тебя здесь в такое время. Думала, я одна такая фанатка.",
+    "next": 2
+  },
+  {
+    "id": 2,
+    "background": "gym.png",
+    "character": {
+      "name": "Майя",
+      "image": "Maya_base.png",
+      "avatar": "Maya_mini.png",
+      "position": "right"
+    },
+    "text": "Просто хотела доделать технику. Соревнования же на носу.",
+    "next": null,
+    "choices": [
+      {
+        "text": "Пригласить её потренироваться вместе (улыбнуться)",
+        "next": 4
+      },
+      {
+        "text": "Сказать, что мне нужно побыть одной (отстраненно)",
+        "next": 10
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "background": "gym.png",
+    "character": {
+      "name": "Алёна",
+      "image": "Alena_happy.png",
+      "avatar": "Alena_mini.png",
+      "position": "left"
+    },
+    "text": "Давай! Только учти, я буду гнать тебя по полной. Твой приём сегодня был так себе.",
+    "next": 5
+  },
+  {
+    "id": 5,
+    "background": "gym.png",
+    "character": {
+      "name": "Майя",
+      "image": "Maya_smile.png",
+      "avatar": "Maya_mini.png",
+      "position": "right"
+    },
+    "text": "Ха, посмотрим, как ты сама справишься с моими подачами.",
+    "next": 6
+  },
+  {
+    "id": 6,
+    "background": "gym.png",
+    "character": {
+      "name": " ",
+      "avatar": "Voice_mini.png"
+    },
+    "text": "<i>Мы начинаем тренировку. Мячи летают через сетку, раздаются громкие удары и наше дыхание. Алёна неожиданно мягко страхует меня, когда я иду в падение.</i>",
+    "next": 7
+  },
+  {
+    "id": 7,
+    "background": "gym.png",
+    "character": {
+      "name": "Алёна",
+      "image": "Alena_base.png",
+      "avatar": "Alena_mini.png",
+      "position": "left"
+    },
+    "text": "Эй, осторожнее! Разобьёшь коленки перед игрой. Давай, я покажу, как лучше сгруппироваться.",
+    "next": 8
+  },
+  {
+    "id": 8,
+    "background": "gym.png",
+    "character": {
+      "name": "Майя",
+      "image": "Maya_blush.png",
+      "avatar": "Maya_mini.png",
+      "position": "right"
+    },
+    "text": "Спасибо. Ты сегодня прямо тренер-зануда.",
+    "next": 9
+  },
+  {
+    "id": 9,
+    "background": "locker_room.png",
+    "character": {
+      "name": " ",
+      "avatar": "Voice_mini.png"
+    },
+    "text": "<i>Тренировка заканчивается. Мы идем в раздевалку. Влажный воздух, стук шкафчиков.</i>",
+    "next": 13
+  },
+  {
+    "id": 10,
+    "background": "gym.png",
+    "character": {
+      "name": "Алёна",
+      "image": "Alena_sad.png",
+      "avatar": "Alena_mini.png",
+      "position": "left"
+    },
+    "text": "А... понятно. Ну ладно, не буду мешать. Удачи.",
+    "next": 11
+  },
+  {
+    "id": 11,
+    "background": "gym.png",
+    "character": {
+      "name": "Майя",
+      "image": "Maya_guilty.png",
+      "avatar": "Maya_mini.png",
+      "position": "right"
+    },
+    "text": "Стоп. Алёна, погоди. Глупо вышло. Оставайся, мне правда нужен напарник.",
+    "next": 12
+  },
+  {
+    "id": 12,
+    "background": "gym.png",
+    "character": {
+      "name": "Алёна",
+      "image": "Alena_happy.png",
+      "avatar": "Alena_mini.png",
+      "position": "left"
+    },
+    "text": "То-то же! Уговорила. Но потом поможешь мне с растяжкой.",
+    "next": 6
+  },
+  {
+    "id": 13,
+    "background": "locker_room.png",
+    "character": {
+      "name": "Алёна",
+      "image": "Alena_base.png",
+      "avatar": "Alena_mini.png",
+      "position": "left"
+    },
+    "text": "Ну и тренировка. Я вся мокрая. Слушай, может, зайдём куда-нибудь по пути? Есть жуть как хочется.",
+    "next": null,
+    "choices": [
+      {
+        "text": "Согласиться и предложить то самое кафе через дорогу",
+        "next": 15
+      },
+      {
+        "text": "Отказаться, сказав, что очень устала",
+        "next": 17
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "background": "locker_room.png",
+    "character": {
+      "name": "Майя",
+      "image": "Maya_smile.png",
+      "avatar": "Maya_mini.png",
+      "position": "right"
+    },
+    "text": "Знаешь, есть одно местечко. Там делают лучший горячий шоколад. Пойдём, моя нога сама меня туда несёт.",
+    "next": 16
+  },
+  {
+    "id": 16,
+    "background": "street_evening.png",
+    "character": {
+      "name": " ",
+      "avatar": "Voice_mini.png"
+    },
+    "text": "<i>Мы выходим на улицу. Вечерний город уже зажигает фонари. Мы идём рядом, наши локти почти соприкасаются.</i>",
+    "next": 20
+  },
+  {
+    "id": 17,
+    "background": "locker_room.png",
+    "character": {
+      "name": "Майя",
+      "image": "Maya_base.png",
+      "avatar": "Maya_mini.png",
+      "position": "right"
+    },
+    "text": "Извини, я просто вымотана. Давай в следующий раз?",
+    "next": 18
+  },
+  {
+    "id": 18,
+    "background": "locker_room.png",
+    "character": {
+      "name": "Алёна",
+      "image": "Alena_sad.png",
+      "avatar": "Alena_mini.png",
+      "position": "left"
+    },
+    "text": "Ну ладно... Тогда до завтра. Выспись хорошенько.",
+    "next": 19
+  },
+  {
+    "id": 19,
+    "background": "street_evening.png",
+    "character": {
+      "name": " ",
+      "avatar": "Voice_mini.png"
+    },
+    "text": "<i>Мы расходимся в разные стороны. На душе почему-то пусто, хотя я сама отказалась.</i>",
+    "next": 21
+  },
+  {
+    "id": 20,
+    "background": "street_evening.png",
+    "character": {
+      "name": "Алёна",
+      "image": "Alena_happy.png",
+      "avatar": "Alena_mini.png",
+      "position": "left"
+    },
+    "text": "Как же круто мы сегодня сыграли в паре. Нам завтра нужно повторить это на матче. Мы будем непобедимы.",
+    "next": 21
+  },
+  {
+    "id": 21,
+    "background": "locker_room.png",
+    "character": {
+      "name": " ",
+      "avatar": "Voice_mini.png"
+    },
+    "text": "<i>На следующий день. День матча. Раздевалка гудит от напряжения. Мы надеваем форму.</i>",
+    "next": 22
+  },
+  {
+    "id": 22,
+    "background": "locker_room.png",
+    "character": {
+      "name": "Алёна",
+      "image": "Alena_worried.png",
+      "avatar": "Alena_mini.png",
+      "position": "left"
+    },
+    "text": "Волнуешься? У меня руки немного трясутся.",
+    "next": null,
+    "choices": [
+      {
+        "text": "Взять её за руку и сказать: «Не бойся, мы вместе»",
+        "next": 24
+      },
+      {
+        "text": "Сказать: «Выдохни. Просто играем как вчера»",
+        "next": 25
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "background": "locker_room.png",
+    "character": {
+      "name": "Алёна",
+      "image": "Alena_blush.png",
+      "avatar": "Alena_mini.png",
+      "position": "left"
+    },
+    "text": "Майя... Спасибо. Мне сразу легче, когда ты рядом.",
+    "next": 26
+  },
+  {
+    "id": 25,
+    "background": "locker_room.png",
+    "character": {
+      "name": "Алёна",
+      "image": "Alena_happy.png",
+      "avatar": "Alena_mini.png",
+      "position": "left"
+    },
+    "text": "Ты права. Я просто разомнусь хорошенько.",
+    "next": 26
+  },
+  {
+    "id": 26,
+    "background": "gym_match.png",
+    "character": {
+      "name": " ",
+      "avatar": "Voice_mini.png"
+    },
+    "text": "<i>Спортзал полон зрителей. Свисток. Игра начинается. Мяч перелетает через сетку. Мы двигаемся синхронно, как единое целое.</i>",
+    "next": 27
+  },
+  {
+    "id": 27,
+    "background": "gym_match.png",
+    "character": {
+      "name": "Майя",
+      "image": "Maya_focus.png",
+      "avatar": "Maya_mini.png",
+      "position": "right"
+    },
+    "text": "Мой!",
+    "next": 28
+  },
+  {
+    "id": 28,
+    "background": "gym_match.png",
+    "character": {
+      "name": " ",
+      "avatar": "Voice_mini.png"
+    },
+    "text": "<i>Мы выигрываем решающее очко. Алёна подбегает ко мне и хватает за плечи.</i>",
+    "next": 29
+  },
+  {
+    "id": 29,
+    "background": "gym_match.png",
+    "character": {
+      "name": "Алёна",
+      "image": "Alena_happy.png",
+      "avatar": "Alena_mini.png",
+      "position": "left"
+    },
+    "text": "Мы сделали это! Ты видела этот блок?!",
+    "next": 30
+  },
+  {
+    "id": 30,
+    "background": "street_day.png",
+    "character": {
+      "name": " ",
+      "avatar": "Voice_mini.png"
+    },
+    "text": "<i>После матча мы выходим на улицу. Адреналин ещё бурлит в крови. Настроение отличное.</i>",
+    "next": 31
+  },
+  {
+    "id": 31,
+    "background": "street_day.png",
+    "character": {
+      "name": "Алёна",
+      "image": "Alena_base.png",
+      "avatar": "Alena_mini.png",
+      "position": "left"
+    },
+    "text": "Ты вчера обещала сводить меня в то кафе с шоколадом. Надеюсь, сейчас у тебя найдется время?",
+    "next": null,
+    "choices": [
+      {
+        "text": "«Конечно. Я же обещала» (улыбнуться)",
+        "next": 33
+      },
+      {
+        "text": "«Ты хочешь пойти туда... прямо сейчас? Со мной?» (смутиться)",
+        "next": 34
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "background": "cafe.png",
+    "character": {
+      "name": " ",
+      "avatar": "Voice_mini.png"
+    },
+    "text": "<i>Мы заходим в уютное кафе. Приносят наш заказ. Играет тихая музыка. Мы садимся у окна.</i>",
+    "next": 35
+  },
+  {
+    "id": 34,
+    "background": "street_day.png",
+    "character": {
+      "name": "Алёна",
+      "image": "Alena_laugh.png",
+      "avatar": "Alena_mini.png",
+      "position": "left"
+    },
+    "text": "Ну да. А что тут такого? Или ты стесняешься, что тебя увидят со мной?",
+    "next": 33
+  },
+  {
+    "id": 35,
+    "background": "cafe.png",
+    "character": {
+      "name": "Майя",
+      "image": "Maya_smile.png",
+      "avatar": "Maya_mini.png",
+      "position": "right"
+    },
+    "text": "За эту победу. И за нас. Ты сегодня была невероятна на площадке.",
+    "next": 36
+  },
+  {
+    "id": 36,
+    "background": "cafe.png",
+    "character": {
+      "name": "Алёна",
+      "image": "Alena_base.png",
+      "avatar": "Alena_mini.png",
+      "position": "left"
+    },
+    "text": "Слушай... Я хотела спросить. Эти две тренировки подряд... Мне показалось, или между нами правда есть какая-то химия? Не только в игре.",
+    "next": null,
+    "choices": [
+      {
+        "text": "«Мне показалось, или ты пытаешься мне в чем-то признаться?» (кокетливо)",
+        "next": 38
+      },
+      {
+        "text": "«Да, я тоже это чувствую. И мне это нравится» (честно)",
+        "next": 39
+      },
+      {
+        "text": "«Наверное, это просто командный дух» (уйти от ответа)",
+        "next": 40
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "background": "cafe.png",
+    "character": {
+      "name": "Алёна",
+      "image": "Alena_blush.png",
+      "avatar": "Alena_mini.png",
+      "position": "left"
+    },
+    "text": "А что, если и пытаюсь? Допустим, ты мне очень нравишься. И дело не только в волейболе.",
+    "next": 41
+  },
+  {
+    "id": 39,
+    "background": "cafe.png",
+    "character": {
+      "name": "Алёна",
+      "image": "Alena_happy.png",
+      "avatar": "Alena_mini.png",
+      "position": "left"
+    },
+    "text": "Правда? А я боялась, что мне одной всё это кажется.",
+    "next": 41
+  },
+  {
+    "id": 40,
+    "background": "cafe.png",
+    "character": {
+      "name": "Алёна",
+      "image": "Alena_sad.png",
+      "avatar": "Alena_mini.png",
+      "position": "left"
+    },
+    "text": "А... ну да, наверное. Просто показалось. Извини.",
+    "next": 42
+  },
+  {
+    "id": 41,
+    "background": "cafe.png",
+    "character": {
+      "name": "Майя",
+      "image": "Maya_blush.png",
+      "avatar": "Maya_mini.png",
+      "position": "right"
+    },
+    "text": "Тогда, может, это не последняя наша встреча вне спортзала?",
+    "next": 43
+  },
+  {
+    "id": 42,
+    "background": "cafe.png",
+    "character": {
+      "name": "Майя",
+      "image": "Maya_guilty.png",
+      "avatar": "Maya_mini.png",
+      "position": "right"
+    },
+    "text": "Алёна, постой. Я просто испугалась. Мне с тобой очень хорошо. Давай не будем делать вид, что это ничего не значит?",
+    "next": 41
+  },
+  {
+    "id": 43,
+    "background": "cafe.png",
+    "character": {
+      "name": "Алёна",
+      "image": "Alena_base.png",
+      "avatar": "Alena_mini.png",
+      "position": "left"
+    },
+    "text": "Определённо нет. За нас?",
+    "next": 44
+  },
+  {
+    "id": 44,
+    "background": "cafe.png",
+    "character": {
+      "name": " ",
+      "avatar": "Voice_mini.png"
+    },
+    "text": "<i>Мы чокаемся кружками с горячим шоколадом. За окном вечерний город, а внутри так тепло, что хочется, чтобы этот момент длился вечно.</i>",
+    "next": null
+  }
+]
